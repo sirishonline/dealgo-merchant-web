@@ -1,13 +1,8 @@
 import type { NextConfig } from "next";
 
-const nextConfig = {
+const nextConfig: NextConfig = {
+  /* config options here */
   reactStrictMode: true,
-  swcMinify: true,
-  images: {
-    domains: ["images.unsplash.com"],
-    unoptimized: true,
-  },
-  transpilePackages: ["react-hook-form"],
 };
 
 export default nextConfig;

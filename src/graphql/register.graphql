@@ -1,0 +1,11 @@
+mutation RegisterMerchant($input: RegisterMerchantInput!) {
+  registerMerchant(input: $input)
+}
+
+mutation VerifyOtp($input: OTPVerifyInput!) {
+  verifyOtp(input: $input)
+}
+
+mutation ResendOtp {
+  resendOtp
+}
